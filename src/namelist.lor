@@ -1,0 +1,23 @@
+&init
+  X0  =   1.0,
+  Y0  =   1.0,
+  Z0  =   1.0,
+  X1  =   1.0,
+  Y1  =   1.0,
+  Z1  =   0.99999999,
+/
+
+&misc
+  maxiter = 50000,
+  dt      = 0.01,
+/
+
+&para
+  sigma = 10.0,
+  erre  = 28.0,
+  bi    = 2.66666666667,
+/
+
+&dire
+  outdir = '/home/valcap/Dropbox/Squole/lorenz.f90/data'
+/
